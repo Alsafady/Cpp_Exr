@@ -4,9 +4,11 @@
 using namespace std;
 int main() {
 
-string cars_model [] = {"BMW","Ford","Toyota"};
+string cars_model[] = {"BMW","Ford","Mazda"};
 
-cout<<cars_model[0];
+cars_model[2] = "Toyota";
+
+cout<<cars_model[2];
 
 }
 
